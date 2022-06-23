@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/rockSongsFragment">
+
+    <fragment
+        android:id="@+id/rockSongsFragment"
+        android:name="com.example.recordsapi.RockSongsFragment"
+        android:label="Rock"
+        tools:layout="@layout/fragment_rock_songs" />
+    <fragment
+        android:id="@+id/classicFragment"
+        android:name="com.example.recordsapi.ClassicFragment"
+        android:label="Classic"
+        tools:layout="@layout/fragment_rock_songs" />
+    <fragment
+        android:id="@+id/popFragment"
+        android:name="com.example.recordsapi.PopFragment"
+        android:label="Pop"
+        tools:layout="@layout/fragment_pop" />
+</navigation>
